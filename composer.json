@@ -1,0 +1,21 @@
+{
+    "name": "tests-always-included/symfony-console-bootstrap",
+    "type": "tests-always-included-symfony-console-bootstrap",
+    "authors":
+    [
+        {
+            "name": "Tests Always Included Members",
+        }
+    ],
+    "require":
+    {
+        "tests-always-included/symfony-console-bootstrap-installer": "dev-master"
+    },
+    "autoload":
+    {
+        "psr-0":
+        {
+            "TestsAlwaysIncluded\\SymfonyConsoleBootstrap\\": ""
+        }
+    }
+}

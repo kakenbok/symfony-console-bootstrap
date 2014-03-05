@@ -1,0 +1,26 @@
+#!/usr/bin/env php
+<?php
+
+use Symfony\Component\Config\FileLocator;
+use Symfony\Component\DependencyInjection\ContainerBuilder;
+use Symfony\Component\DependencyInjection\Loader\YamlFileLoader;
+use Symfony\Component\DependencyInjection\ParameterBag\ParameterBag;
+use TestsAlwaysIncluded\SymfonyConsoleBootstrap\Application;
+
+$applicationRoot = dirname(__DIR__);
+$vendorRoot = $applicationRoot . DIRECTORY_SEPARATOR . 'vendor' . DIRECTORY_SEPARATOR;
+
+//Require the vendor autoloader for dependencies
+require_once $vendorRoot . 'autoload.php';
+
+//Create the Bootstrap app specific class
+$bootstrap = new AppBoot();
+
+//Create the application
+$application = new Application($bootstrap);
+
+//Boot the application
+$application->boot($applicationRoot);
+
+//Run the application
+$application->run();
