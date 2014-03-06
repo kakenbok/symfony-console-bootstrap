@@ -1,0 +1,64 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
+    ],
+    "hash": "18c3b7352fcd4634e96aa8b7faedea20",
+    "packages": [
+        {
+            "name": "tests-always-included/symfony-console-bootstrap-installer",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tests-always-included/symfony-console-bootstrap-installer.git",
+                "reference": "62eed19d8081dae8bc6037000c54c96b25cc1a9b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tests-always-included/symfony-console-bootstrap-installer/zipball/62eed19d8081dae8bc6037000c54c96b25cc1a9b",
+                "reference": "62eed19d8081dae8bc6037000c54c96b25cc1a9b",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "1.0.0",
+                "php": ">=5.3.9"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "TestsAlwaysIncluded\\SymfonyConsoleBootstrapInstaller\\PackageInstallerPlugin"
+            },
+            "autoload": {
+                "psr-0": {
+                    "TestsAlwaysIncluded\\SymfonyConsoleBootstrapInstaller\\": ""
+                }
+            },
+            "authors": [
+                {
+                    "name": "Tests Always Included Member",
+                    "homepage": "https://github.com/tests-always-included"
+                }
+            ],
+            "support": {
+                "source": "https://github.com/tests-always-included/symfony-console-bootstrap-installer/tree/master",
+                "issues": "https://github.com/tests-always-included/symfony-console-bootstrap-installer/issues"
+            },
+            "time": "2014-03-06 01:46:03"
+        }
+    ],
+    "packages-dev": [
+
+    ],
+    "aliases": [
+
+    ],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "tests-always-included/symfony-console-bootstrap-installer": 20
+    },
+    "platform": [
+
+    ],
+    "platform-dev": [
+
+    ]
+}

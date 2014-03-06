@@ -5,6 +5,14 @@
     [
         {
             "name": "Tests Always Included Members",
+            "homepage": "https://github.com/tests-always-included/symfony-console-bootstrap"
+        }
+    ],
+    "repositories":
+    [
+        {
+            "type": "vcs",
+            "url": "https://github.com/tests-always-included/symfony-console-bootstrap-installer.git"
         }
     ],
     "require":
