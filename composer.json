@@ -19,6 +19,7 @@
     {
         "php": ">=5.3.9",
         "symfony/console": ">=2.3.7",
+        "symfony/yaml": ">=2.3.7",
         "tests-always-included/symfony-console-bootstrap-installer": "dev-master"
     },
     "autoload":
